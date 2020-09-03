@@ -1,0 +1,52 @@
+div.dataTables_length select {
+	width: 50% !important;
+}
+
+table.dataTable tbody tr.selected {
+  background-color:#08c;
+}
+
+table.dataTable tbody tr.selected, table.dataTable tbody th.selected, table.dataTable tbody td.selected {
+    color: white;
+}
+
+.ms-container{
+	width:100%;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-left: 0;
+}
+
+.espaciado{
+	margin-right:6px;
+}
+
+.elemento_grupo{
+	margin-top:2px;
+	margin-bottom:2px;	
+}
+
+.etiqueta-titulo-horizontal {
+	margin-top:6px;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+.mensaje-carga {
+	font-size:18px;
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-sidebar, .left-side {
+	width: 150px;
+}
+
+.content-wrapper, .right-side, .main-footer {
+    margin-left: 150px;
+}
